@@ -1,0 +1,46 @@
+/* src/components/WelcomeBanner.css */
+
+/* Welcome Banner Styles */
+.welcome-banner {
+    text-align: center; /* Center the text */
+    padding: 50px 20px; /* Add padding for space around the content */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background color */
+    color: black; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px auto; /* Center the banner horizontally */
+    max-width: 800px; /* Set a maximum width for the banner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    backdrop-filter: blur(5px); /* Apply a subtle blur effect to the background */
+}
+
+/* Heading style */
+.welcome-banner h1 {
+    font-size: 2.5em; /* Large heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-family: cursive; /* Font style */
+}
+
+/* Paragraph style */
+.welcome-banner p {
+    font-size: 1.2em; /* Slightly larger paragraph text */
+    margin-bottom: 30px; /* Space below the paragraph */
+    font-family: cursive; /* Font style */
+}
+
+/* Call-to-Action Button Style */
+.welcome-banner .cta-button {
+    display: inline-block; /* Button-like appearance */
+    padding: 15px 30px; /* Padding inside the button */
+    background-color: #003366; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Font size for the button text */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    font-family: cursive; /* Font style */
+}
+
+/* Hover effect for the button */
+.welcome-banner .cta-button:hover {
+    background-color: #003366; /* Darker button color on hover */
+}

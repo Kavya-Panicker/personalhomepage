@@ -1,0 +1,21 @@
+/* src/components/ContactMe.css */
+
+/* ContactMe section styles */
+#contactme {
+    /* Center the text */
+    padding: 50px 20px; /* Add padding for space around the content */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background color */
+    color: black; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px auto; /* Center the banner horizontally */
+    max-width: 800px; /* Set a maximum width for the banner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    backdrop-filter: blur(5px);
+}
+#para{
+    font-size: 20px;
+    text-align: left;
+    word-spacing: normal;
+}
+
+
